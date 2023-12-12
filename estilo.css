@@ -1,0 +1,53 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+}
+.header{
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    background-color: darkcyan;
+}
+
+.header div {
+    color: white;
+}
+
+.header div:hover {
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+.generic_section{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titles_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
